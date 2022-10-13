@@ -19,13 +19,13 @@ class Hero:
     def brand_phrase(self):
         return ('good will win.')
 
+
 gur = Hero('gurat', 'gura', 120, 10)
 bek = Hero('Bektur', 'beka', 1000, 1000)
 ali = Hero('Alihan', 'Front', 10, 5)
-malik = Hero('Malik', 'Mali', 268, 15)
-result = [ali,malik,bek,gur]
+abdumalik = Hero('Malik', 'Mali', 268, 15)
+result = [ali, abdumalik, bek, gur]
 gur.heal()
 ali.brand_phrase()
 bek.two_damage()
-malik.dreetings()
-
+abdumalik.dreetings()
