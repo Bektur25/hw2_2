@@ -1,0 +1,31 @@
+class Hero:
+    def __init__(self, name, nickname, hp, damage):
+        self.name = name
+        self.nickname = nickname
+        self.hp = hp
+        self.damage = damage
+
+    def heal(self):
+        a = self.hp + 100
+        return a
+
+    def two_damage(self):
+        b = self.damage * 2
+        return b
+
+    def dreetings(self):
+        return (f'my name is {self.name}')
+
+    def brand_phrase(self):
+        return ('good will win.')
+
+gur = Hero('gurat', 'gura', 120, 10)
+bek = Hero('Bektur', 'beka', 1000, 1000)
+ali = Hero('Alihan', 'Front', 10, 5)
+malik = Hero('Malik', 'Mali', 268, 15)
+result = [ali,malik,bek,gur]
+gur.heal()
+ali.brand_phrase()
+bek.two_damage()
+malik.dreetings()
+
